@@ -6,6 +6,9 @@
 //                   JMA  (Japan Medical Association)
 //                   NaCl (Network Applied Communication Laboratory Ltd.)
 //
+// (C) 2013 Vladimir Zaburdaev <v.zaburdaev@gmail.com>
+//	Modification for detect qrcode on video.
+//
 // This is free software with ABSOLUTELY NO WARRANTY.
 // You can redistribute and/or modify it under the terms of LGPL.
 //
