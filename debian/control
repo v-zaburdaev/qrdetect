@@ -1,0 +1,19 @@
+Source: qrdecode
+Section: comm
+Priority: optional
+Maintainer: Vladimir Zaburdaev <v.zaburdaev@gmail.com>
+Build-Depends:  libdecodeqr-dev (>=0.9.3-6.2), libopencv-dev (>=2.3.1), debhelper (>=9), autotools-dev
+Standards-Version: 3.9.3
+
+Package: qrdecode
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Check video 
+
+Package: qrdecode-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, qrdecode (= ${binary:Version})
+Description: qrdecode debug package
+ This package contains the debugging symbols.
